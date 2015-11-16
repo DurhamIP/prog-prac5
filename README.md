@@ -23,7 +23,9 @@ the method is called when we want to print out an instance of the class. This
 method returns the _String_ that should describe the current state of the object.
 For example, if we had an instance of class _Person_ called `fred`, when we do
 
-```System.out.println(fred)```
+```
+System.out.println(fred)
+```
 
 we want it to give something meaningful, such as their name and age. To do
 this, the `toString` method might look something like:
