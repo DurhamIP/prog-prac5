@@ -16,21 +16,24 @@ created in Java that we can write code for. One of these is a method to return
 a _String_ describing the current state of the object. The method signature for
 this is:
 
-```public String toString()```
+```java
+public String toString()
+```
 
 Like the constructor, this method is called automatically for us. In this case,
 the method is called when we want to print out an instance of the class. This
 method returns the _String_ that should describe the current state of the object.
 For example, if we had an instance of class _Person_ called `fred`, when we do
 
-```
+```java
 System.out.println(fred)
 ```
 
 we want it to give something meaningful, such as their name and age. To do
 this, the `toString` method might look something like:
 
-```public String toString(){
+```java
+public String toString(){
  return "My name is " + name + " and I am " + age +
 "years old." ;
 }
@@ -71,7 +74,9 @@ classes required using the _ArrayList_ data type.
 Remember, the `java.util.ArrayList` class needs to be imported
 to make use of _ArrayList_s. A new _ArrayList_ can then be defined using:
 
-```ArrayList<String> listname = new ArrayList<String>();```
+```java
+ArrayList<String> listname = new ArrayList<String>();
+```
 
 Where _String_ can be replaced with any _Object_ data type. Some useful
 methods that can be applied to lists are:
@@ -87,9 +92,7 @@ Use the `for` loop to write a method to print out all of the people used in your
 
 ###Level 3 - Extreme Lists
 
-The data type for the list defined above is: 
-
-`ArrayList<String>`
+The data type for the list defined above is `ArrayList<String>`
 
  Using this
 as the data type in another list means that we can have nested lists. One
