@@ -72,7 +72,7 @@ whether they are vegetarian/ spicy and how much they cost.
 You should now be able to implement your model for each of the
 classes required using the _ArrayList_ data type.
 Remember, the `java.util.ArrayList` class needs to be imported
-to make use of _ArrayList_s. A new _ArrayList_ can then be defined using:
+to make use of _ArrayList_. A new _ArrayList_ can then be defined using:
 
 ```java
 ArrayList<String> listname = new ArrayList<String>();
