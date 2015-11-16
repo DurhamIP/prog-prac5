@@ -1,6 +1,6 @@
 #Introduction to Programming
 
-##Practical 5
+##Practical 5: Modelling with Lists
 
 ###Level 1: Designing a Person
 
@@ -83,7 +83,7 @@ Details on these methods and others can be found on the Java API at:
 
 Use the `for` loop to write a method to print out all of the people used in your model (e.g. all the customers in the bank).
 
-###Level 3 - Xtreme Lists
+###Level 3 - Extreme Lists
 
 The data type for the list defined above is: 
 
