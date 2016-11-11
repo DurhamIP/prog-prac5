@@ -57,7 +57,7 @@ remember a list of transactions. The transactions should contain details about
 the time and date, the amount of money, and the type of transaction, e.g.
 withdrawing or transferring money to another account.
 
-2. __Library__ Libraries have lots of books, and increasingly DVDs. They have a
+2. __Library__ Libraries have lots of books, and DVDs. They have a
 list of members that are associated with a person and each member has a
 limit on how many items they can borrow, along with a record of what they
 currently have out on loan and possibly their loan history. They should be able
@@ -86,7 +86,7 @@ methods that can be applied to lists are:
 * `get(int index)` 
 
 Details on these methods and others can be found on the Java API at:
-<http://java.sun.com/javase/7/docs/api/>
+<http://java.sun.com/javase/8/docs/api/>
 
 Use the `for` loop to write a method to print out all of the people used in your model (e.g. all the customers in the bank).
 
