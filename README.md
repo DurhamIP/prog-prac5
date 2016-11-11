@@ -86,7 +86,7 @@ methods that can be applied to lists are:
 * `get(int index)` 
 
 Details on these methods and others can be found on the Java API at:
-<http://java.sun.com/javase/8/docs/api/>
+<http://docs.oracle.com/javase/8/docs/api/>
 
 Use the `for` loop to write a method to print out all of the people used in your model (e.g. all the customers in the bank).
 
