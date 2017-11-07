@@ -1,8 +1,8 @@
-#Introduction to Programming
+# Introduction to Programming
 
-##Practical 5: Modelling with Lists
+## Practical 5: Modelling with Lists
 
-###Level 1: Designing a Person
+### Level 1: Designing a Person
 
 One of the advantages of objects is the ability to encapsulate data specific to
 that object and then reuse it in multiple places. A good example of this is an
@@ -41,7 +41,7 @@ public String toString(){
 
 Add a `toString` method for your _Person_ class.
 
-###Level 2: Modelling an application
+### Level 2: Modelling an application
 
 Select one of the applications below to link your Person into. An example of a
 possible class structure for the library application is shown below.
@@ -90,7 +90,7 @@ Details on these methods and others can be found on the Java API at:
 
 Use the `for` loop to write a method to print out all of the people used in your model (e.g. all the customers in the bank).
 
-###Level 3 - Extreme Lists
+### Level 3 - Extreme Lists
 
 The data type for the list defined above is `ArrayList<String>`
 
